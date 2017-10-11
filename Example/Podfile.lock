@@ -1,0 +1,16 @@
+PODS:
+  - LCASqliteTool (0.1.0)
+
+DEPENDENCIES:
+  - LCASqliteTool (from `../`)
+
+EXTERNAL SOURCES:
+  LCASqliteTool:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LCASqliteTool: 835330787c042576ca19c5d5732402e4dc326e5e
+
+PODFILE CHECKSUM: d8570f897c98b6fed1110ff90c28a01987ec5d80
+
+COCOAPODS: 1.3.1

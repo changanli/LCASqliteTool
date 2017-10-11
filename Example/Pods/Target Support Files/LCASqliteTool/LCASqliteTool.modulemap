@@ -1,0 +1,6 @@
+framework module LCASqliteTool {
+  umbrella header "LCASqliteTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

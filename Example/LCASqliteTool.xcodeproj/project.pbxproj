@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B54CBD1F8DEE390048A83D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B54CBC1F8DEE390048A83D /* libsqlite3.tbd */; };
 		068C6ACFF256C26EA27FA189 /* Pods_LCASqliteTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72533EA90932708446EA1FF7 /* Pods_LCASqliteTool_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -29,9 +30,12 @@
 
 /* Begin PBXFileReference section */
 		01EDA6852D3600D4C7FD570E /* Pods-LCASqliteTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCASqliteTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCASqliteTool_Tests/Pods-LCASqliteTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		24BB7DF2A20CD4DC80B8DA75 /* LCASqliteTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LCASqliteTool.podspec; path = ../LCASqliteTool.podspec; sourceTree = "<group>"; };
-		2BA1A7491F2F0761586C07D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		302EC6A77DDEA576D55CEA39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		04B54CB61F8DEE0F0048A83D /* LCASqliteTool_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LCASqliteTool_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		04B54CBA1F8DEE2A0048A83D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		04B54CBC1F8DEE390048A83D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		24BB7DF2A20CD4DC80B8DA75 /* LCASqliteTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LCASqliteTool.podspec; path = ../LCASqliteTool.podspec; sourceTree = "<group>"; };
+		2BA1A7491F2F0761586C07D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		302EC6A77DDEA576D55CEA39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LCASqliteTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCASqliteTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B54CBD1F8DEE390048A83D /* libsqlite3.tbd in Frameworks */,
 				8077844D8326E21D6D55E7A0 /* Pods_LCASqliteTool_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +77,8 @@
 		59A5DBB7EA661959E9DF2FDE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04B54CBC1F8DEE390048A83D /* libsqlite3.tbd */,
+				04B54CBA1F8DEE2A0048A83D /* libsqlite3.0.tbd */,
 				F2551147996354C639CD187E /* Pods_LCASqliteTool_Example.framework */,
 				72533EA90932708446EA1FF7 /* Pods_LCASqliteTool_Tests.framework */,
 			);
@@ -108,6 +115,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				04B54CB61F8DEE0F0048A83D /* LCASqliteTool_Example-Bridging-Header.h */,
 			);
 			name = "Example for LCASqliteTool";
 			path = LCASqliteTool;
@@ -517,11 +525,14 @@
 			baseConfigurationReference = A65E9B45F8F6947F8DB55B7F /* Pods-LCASqliteTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LCASqliteTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LCASqliteTool/LCASqliteTool_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -532,11 +543,13 @@
 			baseConfigurationReference = 629BAE28BAD6F45F21C01ADF /* Pods-LCASqliteTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LCASqliteTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LCASqliteTool/LCASqliteTool_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

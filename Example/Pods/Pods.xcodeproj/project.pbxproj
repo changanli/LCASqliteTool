@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F5ADF8DFB88B11965BAEE37C7B2421A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		214359B21979FA429A7E1CBA2CD032AB /* LCASqliteTool-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = AA83B921D41E668AFE959247666B85C7 /* LCASqliteTool-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB4FC459D8154BC68141992D5BBE236 /* Pods-LCASqliteTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA755BADDE9A275A079413E80F693520 /* Pods-LCASqliteTool_Tests-dummy.m */; };
+		41A62FF760EA61E616788A3602ACB7C6 /* LCASqliteModelTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B11CBAC86390B48094116846914AB /* LCASqliteModelTool.swift */; };
+		43A474DCD7CB8A0221AD1AF6A6B462DF /* LCASqliteTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D43E88813CBB8DBEF35AF3769FE58F69 /* LCASqliteTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		453C9D6B5DEC961AA63528BBB0884E25 /* LCAModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8756FD681BE363590B19CAF2DBC299A /* LCAModelProtocol.swift */; };
+		48EF7D220EADC991330F917B6C4E4724 /* LCAObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3236589E4D178151D97129601D28784 /* LCAObject.swift */; };
+		4C2106FD90F2C3FE8B59077E888E8C76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4C3062D961A1263F34572B59EE6079B6 /* Pods-LCASqliteTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A947D1879345B4CAD0F4D4F7EB8B42D6 /* Pods-LCASqliteTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55C1B78DD29D92C7DD7F254220DD864C /* LCATableTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2E63E53E46A25A394C9C8327C7E58 /* LCATableTool.swift */; };
+		686C14C29B547BF1355E1A18F8FD6681 /* Pods-LCASqliteTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA187B6D76E0E7D1FD9B3985A79D9394 /* Pods-LCASqliteTool_Example-dummy.m */; };
+		6DD6ADDC5D2D076C572BCF88B1A4A7A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		71CB5691E359A6867BECBA9FC04CE980 /* Pods-LCASqliteTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58950EEB7E6C3EEAC7B197D9DB152C84 /* Pods-LCASqliteTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B65CBC4BFBC9F7CB82115611DABDCC5B /* LCASqliteTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CBA64CA7EA62638A118D129FB9394D /* LCASqliteTool-dummy.m */; };
+		B9951AD6E8D91CC3715832742B33867B /* LCASqliteTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9768527EF60EE0F7ABFE9FCBEFB792 /* LCASqliteTool.swift */; };
+		F9A7185695143B754698ED4147C85BDE /* LCASqliteToolAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A9F846788E867D6A46769A69EB2B28 /* LCASqliteToolAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F31214010E5B0BB64DB44B82A8988C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 809B9D139D59717E024E9F9C3A9FC2BD;
+			remoteInfo = LCASqliteTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09157CE9AAE991CDDB6B3E531CF06119 /* Pods-LCASqliteTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCASqliteTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B3A7D865ACF0E86E08AE5C5320E7824 /* Pods_LCASqliteTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCASqliteTool_Example.framework; path = "Pods-LCASqliteTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9768527EF60EE0F7ABFE9FCBEFB792 /* LCASqliteTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCASqliteTool.swift; path = LCASqliteTool/Classes/LCASqliteTool.swift; sourceTree = "<group>"; };
+		23AA18D647734876461C668807BDAE50 /* Pods-LCASqliteTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCASqliteTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		247B11CBAC86390B48094116846914AB /* LCASqliteModelTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCASqliteModelTool.swift; path = LCASqliteTool/Classes/LCASqliteModelTool.swift; sourceTree = "<group>"; };
+		27E75359CE98883B6699A0D0CC07F14B /* Pods-LCASqliteTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCASqliteTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2EEE6A133230DF55B6688C9127DA948F /* Pods-LCASqliteTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LCASqliteTool_Tests.modulemap"; sourceTree = "<group>"; };
+		384F40B14FF17BB53C2B04485D83E2E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C36A20E86323BA0E6A2B83135A7F3D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE651835715702DD348B8FEB18D3FA6 /* Pods-LCASqliteTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCASqliteTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4731312BD9FE391188FCD3C4D553281B /* Pods-LCASqliteTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCASqliteTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CC576B918587D293F00B233978C23FA /* Pods-LCASqliteTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCASqliteTool_Tests-resources.sh"; sourceTree = "<group>"; };
+		4E93A2C27740153FDDFE1A969788F3DE /* LCASqliteTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCASqliteTool-prefix.pch"; sourceTree = "<group>"; };
+		5204FFA5ED5C15FBAAA2B673BC29BD2B /* LCASqliteTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCASqliteTool.xcconfig; sourceTree = "<group>"; };
+		5803FA0DB0230439A1EB346E503AA5FA /* Pods-LCASqliteTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LCASqliteTool_Example.modulemap"; sourceTree = "<group>"; };
+		58950EEB7E6C3EEAC7B197D9DB152C84 /* Pods-LCASqliteTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCASqliteTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70A9F846788E867D6A46769A69EB2B28 /* LCASqliteToolAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCASqliteToolAPI.swift; path = LCASqliteTool/Classes/LCASqliteToolAPI.swift; sourceTree = "<group>"; };
+		758753E846FBCC93344FE548ECD2929F /* Pods-LCASqliteTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCASqliteTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		77AA5A9DFCD31EEE043D7337DD1B989D /* Pods_LCASqliteTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCASqliteTool_Tests.framework; path = "Pods-LCASqliteTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		849E6FAE1CDC02428F75D0BB4570841B /* Pods-LCASqliteTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCASqliteTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6CBA64CA7EA62638A118D129FB9394D /* LCASqliteTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCASqliteTool-dummy.m"; sourceTree = "<group>"; };
+		A7A2E63E53E46A25A394C9C8327C7E58 /* LCATableTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCATableTool.swift; path = LCASqliteTool/Classes/LCATableTool.swift; sourceTree = "<group>"; };
+		A947D1879345B4CAD0F4D4F7EB8B42D6 /* Pods-LCASqliteTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCASqliteTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		AA83B921D41E668AFE959247666B85C7 /* LCASqliteTool-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LCASqliteTool-Bridging-Header.h"; path = "LCASqliteTool/Classes/LCASqliteTool-Bridging-Header.h"; sourceTree = "<group>"; };
+		B3236589E4D178151D97129601D28784 /* LCAObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCAObject.swift; path = LCASqliteTool/Classes/LCAObject.swift; sourceTree = "<group>"; };
+		BDA7B7DAFCFB77BC432225E7E9E826C9 /* LCASqliteTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LCASqliteTool.modulemap; sourceTree = "<group>"; };
+		C8756FD681BE363590B19CAF2DBC299A /* LCAModelProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCAModelProtocol.swift; path = LCASqliteTool/Classes/LCAModelProtocol.swift; sourceTree = "<group>"; };
+		CB0AFA159C3ACF67A12EEDF43437CC10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAF6801EDF589D584B276FDF06A89AF /* Pods-LCASqliteTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCASqliteTool_Example-resources.sh"; sourceTree = "<group>"; };
+		D43E88813CBB8DBEF35AF3769FE58F69 /* LCASqliteTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCASqliteTool-umbrella.h"; sourceTree = "<group>"; };
+		E6F05DEC7E416D9661E99CAD85BFA9CC /* Pods-LCASqliteTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCASqliteTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EA187B6D76E0E7D1FD9B3985A79D9394 /* Pods-LCASqliteTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCASqliteTool_Example-dummy.m"; sourceTree = "<group>"; };
+		EA755BADDE9A275A079413E80F693520 /* Pods-LCASqliteTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCASqliteTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		EDD472D64123D1B48A6695B9CFFA290C /* Pods-LCASqliteTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCASqliteTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F417C01DA603AF75E2B425D2E61EE5AD /* LCASqliteTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LCASqliteTool.framework; path = LCASqliteTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE9F70769E1EFE15D6D08910EE199A7 /* Pods-LCASqliteTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCASqliteTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C6B1754C0118BE2F66D075615CF1803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD6ADDC5D2D076C572BCF88B1A4A7A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40C649C0C86E07CCFC3CEEC3E8169EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5ADF8DFB88B11965BAEE37C7B2421A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5B5DC085865FB3A88BCC599F0EA04A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2106FD90F2C3FE8B59077E888E8C76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E05F4DFFD9CC16214AA014DC9FCBB80 /* Pods-LCASqliteTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C36A20E86323BA0E6A2B83135A7F3D8 /* Info.plist */,
+				2EEE6A133230DF55B6688C9127DA948F /* Pods-LCASqliteTool_Tests.modulemap */,
+				849E6FAE1CDC02428F75D0BB4570841B /* Pods-LCASqliteTool_Tests-acknowledgements.markdown */,
+				EDD472D64123D1B48A6695B9CFFA290C /* Pods-LCASqliteTool_Tests-acknowledgements.plist */,
+				EA755BADDE9A275A079413E80F693520 /* Pods-LCASqliteTool_Tests-dummy.m */,
+				23AA18D647734876461C668807BDAE50 /* Pods-LCASqliteTool_Tests-frameworks.sh */,
+				4CC576B918587D293F00B233978C23FA /* Pods-LCASqliteTool_Tests-resources.sh */,
+				58950EEB7E6C3EEAC7B197D9DB152C84 /* Pods-LCASqliteTool_Tests-umbrella.h */,
+				4731312BD9FE391188FCD3C4D553281B /* Pods-LCASqliteTool_Tests.debug.xcconfig */,
+				E6F05DEC7E416D9661E99CAD85BFA9CC /* Pods-LCASqliteTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-LCASqliteTool_Tests";
+			path = "Target Support Files/Pods-LCASqliteTool_Tests";
+			sourceTree = "<group>";
+		};
+		7B05B91F4FB862050A3D32859218C143 /* Pods-LCASqliteTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CB0AFA159C3ACF67A12EEDF43437CC10 /* Info.plist */,
+				5803FA0DB0230439A1EB346E503AA5FA /* Pods-LCASqliteTool_Example.modulemap */,
+				09157CE9AAE991CDDB6B3E531CF06119 /* Pods-LCASqliteTool_Example-acknowledgements.markdown */,
+				3CE651835715702DD348B8FEB18D3FA6 /* Pods-LCASqliteTool_Example-acknowledgements.plist */,
+				EA187B6D76E0E7D1FD9B3985A79D9394 /* Pods-LCASqliteTool_Example-dummy.m */,
+				27E75359CE98883B6699A0D0CC07F14B /* Pods-LCASqliteTool_Example-frameworks.sh */,
+				CEAF6801EDF589D584B276FDF06A89AF /* Pods-LCASqliteTool_Example-resources.sh */,
+				A947D1879345B4CAD0F4D4F7EB8B42D6 /* Pods-LCASqliteTool_Example-umbrella.h */,
+				FEE9F70769E1EFE15D6D08910EE199A7 /* Pods-LCASqliteTool_Example.debug.xcconfig */,
+				758753E846FBCC93344FE548ECD2929F /* Pods-LCASqliteTool_Example.release.xcconfig */,
+			);
+			name = "Pods-LCASqliteTool_Example";
+			path = "Target Support Files/Pods-LCASqliteTool_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C2FDA9426921138254AA2E1C2FBBDC8F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DC97630689D3B0D549264647E8E86091 /* Products */,
+				E9265049100510565B8F2581918299BD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B516D0BE1A40C13705B7C1B78ECB57E7 /* LCASqliteTool */ = {
+			isa = PBXGroup;
+			children = (
+				C8756FD681BE363590B19CAF2DBC299A /* LCAModelProtocol.swift */,
+				B3236589E4D178151D97129601D28784 /* LCAObject.swift */,
+				247B11CBAC86390B48094116846914AB /* LCASqliteModelTool.swift */,
+				1D9768527EF60EE0F7ABFE9FCBEFB792 /* LCASqliteTool.swift */,
+				AA83B921D41E668AFE959247666B85C7 /* LCASqliteTool-Bridging-Header.h */,
+				70A9F846788E867D6A46769A69EB2B28 /* LCASqliteToolAPI.swift */,
+				A7A2E63E53E46A25A394C9C8327C7E58 /* LCATableTool.swift */,
+				CF920B616088CE914A322A9C4FC6C703 /* Support Files */,
+			);
+			name = LCASqliteTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2FDA9426921138254AA2E1C2FBBDC8F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B516D0BE1A40C13705B7C1B78ECB57E7 /* LCASqliteTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF920B616088CE914A322A9C4FC6C703 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				384F40B14FF17BB53C2B04485D83E2E3 /* Info.plist */,
+				BDA7B7DAFCFB77BC432225E7E9E826C9 /* LCASqliteTool.modulemap */,
+				5204FFA5ED5C15FBAAA2B673BC29BD2B /* LCASqliteTool.xcconfig */,
+				A6CBA64CA7EA62638A118D129FB9394D /* LCASqliteTool-dummy.m */,
+				4E93A2C27740153FDDFE1A969788F3DE /* LCASqliteTool-prefix.pch */,
+				D43E88813CBB8DBEF35AF3769FE58F69 /* LCASqliteTool-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LCASqliteTool";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC97630689D3B0D549264647E8E86091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F417C01DA603AF75E2B425D2E61EE5AD /* LCASqliteTool.framework */,
+				1B3A7D865ACF0E86E08AE5C5320E7824 /* Pods_LCASqliteTool_Example.framework */,
+				77AA5A9DFCD31EEE043D7337DD1B989D /* Pods_LCASqliteTool_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9265049100510565B8F2581918299BD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B05B91F4FB862050A3D32859218C143 /* Pods-LCASqliteTool_Example */,
+				3E05F4DFFD9CC16214AA014DC9FCBB80 /* Pods-LCASqliteTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34BE6311105264E936E1C9AE094453F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214359B21979FA429A7E1CBA2CD032AB /* LCASqliteTool-Bridging-Header.h in Headers */,
+				43A474DCD7CB8A0221AD1AF6A6B462DF /* LCASqliteTool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B305633A6BE0801E4F190347BAE50535 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3062D961A1263F34572B59EE6079B6 /* Pods-LCASqliteTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C0AC30B5D8EB3E37BDC703F771A5ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CB5691E359A6867BECBA9FC04CE980 /* Pods-LCASqliteTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		809B9D139D59717E024E9F9C3A9FC2BD /* LCASqliteTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6EB09B3777C562F67F2FFC743BD3F8 /* Build configuration list for PBXNativeTarget "LCASqliteTool" */;
+			buildPhases = (
+				F384D6C2E145CFC8D09C2322A787C240 /* Sources */,
+				0C6B1754C0118BE2F66D075615CF1803 /* Frameworks */,
+				34BE6311105264E936E1C9AE094453F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCASqliteTool;
+			productName = LCASqliteTool;
+			productReference = F417C01DA603AF75E2B425D2E61EE5AD /* LCASqliteTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		97020029E3513CA253B19FCEB9C600E0 /* Pods-LCASqliteTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E711E4BE50B23BDEF3E34EEAA21E32 /* Build configuration list for PBXNativeTarget "Pods-LCASqliteTool_Tests" */;
+			buildPhases = (
+				40352D3BF23D71986B263D734D7F1E4E /* Sources */,
+				B40C649C0C86E07CCFC3CEEC3E8169EB /* Frameworks */,
+				F1C0AC30B5D8EB3E37BDC703F771A5ED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LCASqliteTool_Tests";
+			productName = "Pods-LCASqliteTool_Tests";
+			productReference = 77AA5A9DFCD31EEE043D7337DD1B989D /* Pods_LCASqliteTool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9B0CFDBADC5EB946A6D7498B985A241 /* Pods-LCASqliteTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D695265F093A9B0C32DD85647BC65376 /* Build configuration list for PBXNativeTarget "Pods-LCASqliteTool_Example" */;
+			buildPhases = (
+				3C15F6D177319B55F1A32D7422A26840 /* Sources */,
+				FF5B5DC085865FB3A88BCC599F0EA04A /* Frameworks */,
+				B305633A6BE0801E4F190347BAE50535 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7056F6FAD402CC8B7195C9E1D113562C /* PBXTargetDependency */,
+			);
+			name = "Pods-LCASqliteTool_Example";
+			productName = "Pods-LCASqliteTool_Example";
+			productReference = 1B3A7D865ACF0E86E08AE5C5320E7824 /* Pods_LCASqliteTool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DC97630689D3B0D549264647E8E86091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				809B9D139D59717E024E9F9C3A9FC2BD /* LCASqliteTool */,
+				B9B0CFDBADC5EB946A6D7498B985A241 /* Pods-LCASqliteTool_Example */,
+				97020029E3513CA253B19FCEB9C600E0 /* Pods-LCASqliteTool_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C15F6D177319B55F1A32D7422A26840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686C14C29B547BF1355E1A18F8FD6681 /* Pods-LCASqliteTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40352D3BF23D71986B263D734D7F1E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB4FC459D8154BC68141992D5BBE236 /* Pods-LCASqliteTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F384D6C2E145CFC8D09C2322A787C240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453C9D6B5DEC961AA63528BBB0884E25 /* LCAModelProtocol.swift in Sources */,
+				48EF7D220EADC991330F917B6C4E4724 /* LCAObject.swift in Sources */,
+				41A62FF760EA61E616788A3602ACB7C6 /* LCASqliteModelTool.swift in Sources */,
+				B65CBC4BFBC9F7CB82115611DABDCC5B /* LCASqliteTool-dummy.m in Sources */,
+				B9951AD6E8D91CC3715832742B33867B /* LCASqliteTool.swift in Sources */,
+				F9A7185695143B754698ED4147C85BDE /* LCASqliteToolAPI.swift in Sources */,
+				55C1B78DD29D92C7DD7F254220DD864C /* LCATableTool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7056F6FAD402CC8B7195C9E1D113562C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LCASqliteTool;
+			target = 809B9D139D59717E024E9F9C3A9FC2BD /* LCASqliteTool */;
+			targetProxy = 0F31214010E5B0BB64DB44B82A8988C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		074E55CA5AE6F3CD502A6583439F020E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758753E846FBCC93344FE548ECD2929F /* Pods-LCASqliteTool_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCASqliteTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCASqliteTool_Example/Pods-LCASqliteTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LCASqliteTool_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		42F9A9052C163135E83E3DEA61C575DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE9F70769E1EFE15D6D08910EE199A7 /* Pods-LCASqliteTool_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCASqliteTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCASqliteTool_Example/Pods-LCASqliteTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LCASqliteTool_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		78C5E3C97A3BE421AC9CECE282839A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5204FFA5ED5C15FBAAA2B673BC29BD2B /* LCASqliteTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCASqliteTool/LCASqliteTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCASqliteTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCASqliteTool/LCASqliteTool.modulemap";
+				PRODUCT_NAME = LCASqliteTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A93C071F90C03558A04A1C86233C1B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F05DEC7E416D9661E99CAD85BFA9CC /* Pods-LCASqliteTool_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCASqliteTool_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCASqliteTool_Tests/Pods-LCASqliteTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LCASqliteTool_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7AFB6C922D05BE9402779AA221E90F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4731312BD9FE391188FCD3C4D553281B /* Pods-LCASqliteTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCASqliteTool_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCASqliteTool_Tests/Pods-LCASqliteTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LCASqliteTool_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB4C160467AAB4C6362C99EBBF6FC2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5204FFA5ED5C15FBAAA2B673BC29BD2B /* LCASqliteTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCASqliteTool/LCASqliteTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCASqliteTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCASqliteTool/LCASqliteTool.modulemap";
+				PRODUCT_NAME = LCASqliteTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E711E4BE50B23BDEF3E34EEAA21E32 /* Build configuration list for PBXNativeTarget "Pods-LCASqliteTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7AFB6C922D05BE9402779AA221E90F0 /* Debug */,
+				A93C071F90C03558A04A1C86233C1B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C6EB09B3777C562F67F2FFC743BD3F8 /* Build configuration list for PBXNativeTarget "LCASqliteTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C5E3C97A3BE421AC9CECE282839A84 /* Debug */,
+				FB4C160467AAB4C6362C99EBBF6FC2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D695265F093A9B0C32DD85647BC65376 /* Build configuration list for PBXNativeTarget "Pods-LCASqliteTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F9A9052C163135E83E3DEA61C575DB /* Debug */,
+				074E55CA5AE6F3CD502A6583439F020E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

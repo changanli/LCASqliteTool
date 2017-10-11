@@ -8,9 +8,20 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
+在创建模型时，需要继承自LCAObject,并且遵守协议LCAModelProtocol,实现协议方法
+```
+//MARK:让用户指定主键 必须是字段，不能是字段中不存在的
+func primaryKey()->String
+//MARK:表名
+func tableName()->String
+//MARK:字段:类型
+func columnNameAndType()->[String:String]
+//MARK:修改字段名称
+func replaceOldNameWithNewName()->[String:String]?
+```
+注意:字典和数组只能是基本类型，不支持数组里包含自定义类型，也不支持属性是自定义类型的和Data，数组和字典被转换为文本类型存储在sqilte里面。
 ## Requirements
-
+Xcode 8.0以上 Swift 3.0
 ## Installation
 
 LCASqliteTool is available through [CocoaPods](http://cocoapods.org). To install
