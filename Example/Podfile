@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LCASqliteTool_Example' do
+  pod 'LCASqliteTool', :path => '../'
+
+  target 'LCASqliteTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
