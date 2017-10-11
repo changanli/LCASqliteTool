@@ -10,7 +10,7 @@ import UIKit
 
 open class LCAObject: NSObject{
     //MARK:将服务器返回的json对象转化为Data
-    var data:Data?
+   open var data:Data?
     public override init() {
         super.init()
     }
