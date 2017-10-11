@@ -14,6 +14,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
+      let result =  LCASqliteToolAPI.deleteAll(uid: nil)
+        
+        if result {
+            print("清除缓存陈宫")
+        }else {
+            print("失败")
+        }
         
     }
 
