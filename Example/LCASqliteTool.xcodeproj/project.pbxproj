@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04B54CBD1F8DEE390048A83D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B54CBC1F8DEE390048A83D /* libsqlite3.tbd */; };
+		04FFF5221F8E088B0041FC93 /* testTTTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFF5211F8E088B0041FC93 /* testTTTT.swift */; };
 		068C6ACFF256C26EA27FA189 /* Pods_LCASqliteTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72533EA90932708446EA1FF7 /* Pods_LCASqliteTool_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 		04B54CB61F8DEE0F0048A83D /* LCASqliteTool_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LCASqliteTool_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		04B54CBA1F8DEE2A0048A83D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		04B54CBC1F8DEE390048A83D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		04FFF5211F8E088B0041FC93 /* testTTTT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTTTT.swift; sourceTree = "<group>"; };
 		24BB7DF2A20CD4DC80B8DA75 /* LCASqliteTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LCASqliteTool.podspec; path = ../LCASqliteTool.podspec; sourceTree = "<group>"; };
 		2BA1A7491F2F0761586C07D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		302EC6A77DDEA576D55CEA39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				04FFF5211F8E088B0041FC93 /* testTTTT.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -380,6 +383,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				04FFF5221F8E088B0041FC93 /* testTTTT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -74,8 +74,15 @@ open class LCASqliteToolAPI {
     ///   - model: 模型对象
     ///   - uid: uid唯一标识，如果为空，存储common.sqlite,如果不为空，存储uid.sqlite
     /// - Returns: true 成功 false :失败
-    open class func saveOrUpdate(tableName:String,model:LCAModelProtocol,uid:String?)->Bool {
+    public class func saveOrUpdate(tableName:String,model:LCAModelProtocol,uid:String?)->Bool {
        return LCASqliteModelTool.saveOrUpdate(tableName: tableName, model: model, uid: uid)
+    }
+    //MARK:清空整个数据库
+    ///清空整个数据库
+    /// - Parameter uid: uid唯一标识，如果为空，删除common.sqlite的数据,如果不为空，删除uid.sqlite的数据
+    /// - Returns: true 成功 false :失败
+    public class func deleteAll(uid:String?)->Bool {
+       return LCASqliteModelTool.deleteAll(uid: uid)
     }
     
     //MARK:清空表
@@ -84,7 +91,7 @@ open class LCASqliteToolAPI {
     ///   - tableName: 表名
     ///   - uid: uid唯一标识，如果为空，删除common.sqlite的数据,如果不为空，删除uid.sqlite的数据
     /// - Returns:  true 成功 false :失败
-    open class func deleteAll(tableName:String,uid:String)->Bool {
+    open class func deleteAll(tableName:String,uid:String?)->Bool {
       return  LCASqliteModelTool.delete(tableName: tableName, whereStr: nil, uid: uid)
     }
     

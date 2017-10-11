@@ -156,15 +156,15 @@ public class LCASqliteTool : NSObject{
     }
     
     //MARK:开启事务
-    fileprivate class func beginTransaction(uid:String?) {
+   public  class func beginTransaction(uid:String?) {
         deal(sql:"begin transaction", uid: uid)
     }
     //MARK:提交事务
-    fileprivate class func commitTransaction(uid:String?) {
+   public  class func commitTransaction(uid:String?) {
         deal(sql:"commit transaction", uid: uid)
     }
     //MARK:回滚
-    fileprivate class func rollBackTransaction(uid:String?) {
+   public  class func rollBackTransaction(uid:String?) {
        deal(sql:"rollback transaction", uid: uid)
     }
     
@@ -174,7 +174,7 @@ public class LCASqliteTool : NSObject{
     /// 打开数据库
     /// - Parameter uid: uid
     /// - Returns: true false
-   fileprivate class func openDB(uid:String?)->Bool{
+  public  class func openDB(uid:String?)->Bool{
         /*
          用户机制:
          如果uid = nil 是公共数据库 common.db
@@ -195,7 +195,7 @@ public class LCASqliteTool : NSObject{
     /// 关闭数据库
     /// - Parameter uid: uid
     /// - Returns: true false
-   fileprivate class func closeDB(uid:String?){
+  public class func closeDB(uid:String?){
         sqlite3_close(pDb)
         pDb = nil
     }

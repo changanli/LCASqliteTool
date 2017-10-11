@@ -8,10 +8,10 @@
 
 import Foundation
 
-
 let kDictionaryIdenti = "&&Dictionary"
 let kArrayIdenti = "&&Array"
-class LCASqliteModelTool : NSObject {
+
+public class LCASqliteModelTool : NSObject {
     
     //MARK:创建表格
     /// MARK:创建表格
@@ -19,7 +19,7 @@ class LCASqliteModelTool : NSObject {
     ///   - createSql: 创建表格的sql
     ///   - uid: uid唯一标识，如果为空，存储common.sqlite,如果不为空，存储uid.sqlite
     /// - Returns: true 成功 false :失败
-    class func createTable(createSql:String,uid:String?)->Bool {
+  public  class func createTable(createSql:String,uid:String?)->Bool {
         return LCASqliteTool.deal(sql: createSql, uid: uid)
     }
     
@@ -29,7 +29,7 @@ class LCASqliteModelTool : NSObject {
     ///   - model: 模型对象
     ///   - uid:  uid唯一标识，如果为空，存储common.sqlite,如果不为空，存储uid.sqlite
     /// - Returns: true 成功 false :失败
-    class func isTableNeedUpdate(model:LCAModelProtocol,uid:String?)->Bool {
+   public class func isTableNeedUpdate(model:LCAModelProtocol,uid:String?)->Bool {
         //create table if not exists student(name text,stuname interger,age interger,score real,primary key(stuname))
         let modelSql = model.createTableSql().lowercased()
 //        create table student(name text,stuname interger,age interger,score real,primary key(stuname))
@@ -53,7 +53,7 @@ class LCASqliteModelTool : NSObject {
     ///   - model: 模型对象
     ///   - uid: uid唯一标识，如果为空，存储common.sqlite,如果不为空，存储uid.sqlite
     /// - Returns: true 成功 false :失败
-    class func updateTable(tableName:String,model:LCAModelProtocol,uid:String?)->Bool{
+  public  class func updateTable(tableName:String,model:LCAModelProtocol,uid:String?)->Bool{
         var sqls = [String]()
         //1.创建一个拥有正确结构的临时表 tableName_tmp
         let createTempTableSql = model.createTableSql(tableName: tableName)
@@ -101,7 +101,7 @@ class LCASqliteModelTool : NSObject {
     ///   - model: 模型对象
     ///   - uid: uid唯一标识，如果为空，存储common.sqlite,如果不为空，存储uid.sqlite
     /// - Returns: true 成功 false :失败
-    class func saveOrUpdate(tableName:String,model:LCAModelProtocol,uid:String?)->Bool {
+   public class func saveOrUpdate(tableName:String,model:LCAModelProtocol,uid:String?)->Bool {
         //1.判断模型是否存在，不存在，则创建
         if !LCATableTool.isTableExist(tableName: tableName, uid: uid) {
             let createSql = model.createTableSql(tableName: tableName)
@@ -174,6 +174,27 @@ class LCASqliteModelTool : NSObject {
         return LCASqliteTool.deal(sql: sql, uid: uid)
     }
     
+    //MARK:清空整个数据库
+    ///清空整个数据库
+    /// - Parameter uid: uid唯一标识，如果为空，删除common.sqlite的数据,如果不为空，删除uid.sqlite的数据
+    /// - Returns: true 成功 false :失败
+    public class func deleteAll(uid:String?)->Bool {
+        let selectSql = "select name from sqlite_master where type='table' order by name"
+        if let result = LCASqliteTool.query(sql: selectSql, uid: uid) {
+            for dict in result {
+                LCASqliteTool.beginTransaction(uid: uid)
+                let tableName  = dict["name"] as! String
+                if !delete(tableName: tableName, whereStr: nil, uid: uid) {
+                    LCASqliteTool.rollBackTransaction(uid: uid)
+                    return false
+                }
+            }
+            LCASqliteTool.commitTransaction(uid: uid)
+        }
+        
+        return true
+    }
+    
     //MARK: - 删除
     /// 删除
     /// - Parameters:
@@ -181,7 +202,7 @@ class LCASqliteModelTool : NSObject {
     ///   - whereStr: where后面的条件语言
     ///   - uid: uid唯一标识，如果为空，删除common.sqlite的数据,如果不为空，删除uid.sqlite的数据
     /// - Returns: true 成功 false :失败
-    class func delete(tableName:String,whereStr:String?,uid:String?)->Bool {
+   public class func delete(tableName:String,whereStr:String?,uid:String?)->Bool {
         var deleteSql = "delete from \(tableName)"
         if (whereStr?.characters.count ?? 0) > 0 {
             deleteSql = "delete from \(tableName) where \(whereStr!)"
@@ -197,7 +218,7 @@ class LCASqliteModelTool : NSObject {
     ///   - whereStr: where 条件语句
     ///   - uid: uid唯一标识，如果为空，查询common.sqlite,如果不为空，查询uid.sqlite
     /// - Returns: true 成功 false :失败
-    class func query(tableName:String,whereStr:String?,uid:String?)->[[String:Any]]? {
+   public class func query(tableName:String,whereStr:String?,uid:String?)->[[String:Any]]? {
         var sql = "select * from \(tableName)"
         if (whereStr?.characters.count ?? 0) > 0 {
             sql = "select * from \(tableName) where \(whereStr!)"
