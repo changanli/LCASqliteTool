@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LCASqliteTool'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '对sqlite增删改查的封装'
 
 # This description is used to generate tags and improve search results.
