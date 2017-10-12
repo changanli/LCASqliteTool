@@ -105,11 +105,11 @@ public class LCASqliteModelTool : NSObject {
         //1.判断模型是否存在，不存在，则创建
         if !LCATableTool.isTableExist(tableName: tableName, uid: uid) {
             let createSql = model.createTableSql(tableName: tableName)
-            let r = LCASqliteModelTool.createTable(createSql: createSql, uid: uid)
+            _ = LCASqliteModelTool.createTable(createSql: createSql, uid: uid)
         }
         //2.判断模型是否需要更新
         if isTableNeedUpdate(model: model, uid: uid) {
-           updateTable(tableName: tableName, model: model, uid: uid)
+          _ = updateTable(tableName: tableName, model: model, uid: uid)
         }
         
         //3.通过主键判断记录是否存在，如果存在则更新，不存在则插入

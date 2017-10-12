@@ -157,15 +157,16 @@ public class LCASqliteTool : NSObject{
     
     //MARK:开启事务
    public  class func beginTransaction(uid:String?) {
-        deal(sql:"begin transaction", uid: uid)
+    
+        _ = deal(sql:"begin transaction", uid: uid)
     }
     //MARK:提交事务
    public  class func commitTransaction(uid:String?) {
-        deal(sql:"commit transaction", uid: uid)
+       _ = deal(sql:"commit transaction", uid: uid)
     }
     //MARK:回滚
    public  class func rollBackTransaction(uid:String?) {
-       deal(sql:"rollback transaction", uid: uid)
+      _ = deal(sql:"rollback transaction", uid: uid)
     }
     
     //MARK- 私有方法
