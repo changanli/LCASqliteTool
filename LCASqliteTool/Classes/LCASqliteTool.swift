@@ -181,6 +181,12 @@ public class LCASqliteTool : NSObject{
          如果uid = nil 是公共数据库 common.db
          uid = zhangsan zhangsan.db
          */
+        let fileManager = FileManager.default
+        do{
+            try fileManager.createDirectory(atPath: kCachePath, withIntermediateDirectories: false, attributes: nil)
+        }catch {
+            print("文件夹创建失败")
+        }
         var dbName = "common.sqlite"
         if uid?.characters.count ?? 0 != 0 {
             dbName = "\(uid!).sqlite"
