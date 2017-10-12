@@ -153,4 +153,20 @@ open class LCASqliteToolAPI {
        return query(tableName: tableName, whereStr: "\(columnName) \(relation.rawValue) '\(value)'", uid: uid)
     }
     
+    //MARK:获取占用的缓存大小
+    /// 获取占用的缓存大小
+    /// - Parameter uid: uid
+    /// - Returns: 名字为uid.sqlite的数据库占用的缓存大小，单位字节
+    open class func cacheSize(uid:String?)->Int64 {
+        return LCASqliteCache.cacheSize(uid:uid)
+    }
+    
+    //MARK:删除缓存
+    /// 删除缓存
+    /// - Parameter uid: uid
+    /// - Returns: true 成功 false失败
+    open class func deleteCache(uid:String?)->Bool{
+       return LCASqliteCache.deleteCache(uid: uid)
+    }
+    
 }

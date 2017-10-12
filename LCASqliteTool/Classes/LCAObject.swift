@@ -1,9 +1,9 @@
 //
 //  LCAObject.swift
-//  health_news
+//  sqlite封装
 //
-//  Created by mac on 2017/10/11.
-//  Copyright © 2017年 com.cnlod.cn. All rights reserved.
+//  Created by lichangan on 2017/10/4.
+//  Copyright © 2017年 lichangan. All rights reserved.
 //
 
 import UIKit

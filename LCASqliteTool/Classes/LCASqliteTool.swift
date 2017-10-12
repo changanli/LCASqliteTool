@@ -8,7 +8,7 @@
 
 import Foundation
 
-let kCachePath = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true).first!
+let kCachePath = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true).first! + "/LCASqliteTool"
 
 //let kCachePath = "/Users/lichangan/Desktop" //放在桌面，方便调试
 ///导入sqlite数据库，在桥接文件中#import "sqlite3.h"
