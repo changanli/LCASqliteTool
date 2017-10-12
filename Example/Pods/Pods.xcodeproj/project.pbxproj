@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		047035CF1F8F368100CCFA72 /* LCASqliteCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047035CE1F8F368100CCFA72 /* LCASqliteCache.swift */; };
 		0F5ADF8DFB88B11965BAEE37C7B2421A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		214359B21979FA429A7E1CBA2CD032AB /* LCASqliteTool-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = AA83B921D41E668AFE959247666B85C7 /* LCASqliteTool-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB4FC459D8154BC68141992D5BBE236 /* Pods-LCASqliteTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA755BADDE9A275A079413E80F693520 /* Pods-LCASqliteTool_Tests-dummy.m */; };
@@ -37,14 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		047035CE1F8F368100CCFA72 /* LCASqliteCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCASqliteCache.swift; sourceTree = "<group>"; };
 		09157CE9AAE991CDDB6B3E531CF06119 /* Pods-LCASqliteTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCASqliteTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1B3A7D865ACF0E86E08AE5C5320E7824 /* Pods_LCASqliteTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCASqliteTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B3A7D865ACF0E86E08AE5C5320E7824 /* Pods_LCASqliteTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCASqliteTool_Example.framework; path = "Pods-LCASqliteTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9768527EF60EE0F7ABFE9FCBEFB792 /* LCASqliteTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCASqliteTool.swift; path = LCASqliteTool/Classes/LCASqliteTool.swift; sourceTree = "<group>"; };
 		23AA18D647734876461C668807BDAE50 /* Pods-LCASqliteTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCASqliteTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		247B11CBAC86390B48094116846914AB /* LCASqliteModelTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCASqliteModelTool.swift; path = LCASqliteTool/Classes/LCASqliteModelTool.swift; sourceTree = "<group>"; };
 		27E75359CE98883B6699A0D0CC07F14B /* Pods-LCASqliteTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCASqliteTool_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2EEE6A133230DF55B6688C9127DA948F /* Pods-LCASqliteTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LCASqliteTool_Tests.modulemap"; sourceTree = "<group>"; };
+		2EEE6A133230DF55B6688C9127DA948F /* Pods-LCASqliteTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LCASqliteTool_Tests.modulemap"; sourceTree = "<group>"; };
 		384F40B14FF17BB53C2B04485D83E2E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C36A20E86323BA0E6A2B83135A7F3D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CE651835715702DD348B8FEB18D3FA6 /* Pods-LCASqliteTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCASqliteTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -52,20 +50,20 @@
 		4CC576B918587D293F00B233978C23FA /* Pods-LCASqliteTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCASqliteTool_Tests-resources.sh"; sourceTree = "<group>"; };
 		4E93A2C27740153FDDFE1A969788F3DE /* LCASqliteTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCASqliteTool-prefix.pch"; sourceTree = "<group>"; };
 		5204FFA5ED5C15FBAAA2B673BC29BD2B /* LCASqliteTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCASqliteTool.xcconfig; sourceTree = "<group>"; };
-		5803FA0DB0230439A1EB346E503AA5FA /* Pods-LCASqliteTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LCASqliteTool_Example.modulemap"; sourceTree = "<group>"; };
+		5803FA0DB0230439A1EB346E503AA5FA /* Pods-LCASqliteTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LCASqliteTool_Example.modulemap"; sourceTree = "<group>"; };
 		58950EEB7E6C3EEAC7B197D9DB152C84 /* Pods-LCASqliteTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCASqliteTool_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		70A9F846788E867D6A46769A69EB2B28 /* LCASqliteToolAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCASqliteToolAPI.swift; path = LCASqliteTool/Classes/LCASqliteToolAPI.swift; sourceTree = "<group>"; };
 		758753E846FBCC93344FE548ECD2929F /* Pods-LCASqliteTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCASqliteTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		77AA5A9DFCD31EEE043D7337DD1B989D /* Pods_LCASqliteTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCASqliteTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77AA5A9DFCD31EEE043D7337DD1B989D /* Pods_LCASqliteTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCASqliteTool_Tests.framework; path = "Pods-LCASqliteTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		849E6FAE1CDC02428F75D0BB4570841B /* Pods-LCASqliteTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCASqliteTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6CBA64CA7EA62638A118D129FB9394D /* LCASqliteTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCASqliteTool-dummy.m"; sourceTree = "<group>"; };
 		A7A2E63E53E46A25A394C9C8327C7E58 /* LCATableTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCATableTool.swift; path = LCASqliteTool/Classes/LCATableTool.swift; sourceTree = "<group>"; };
 		A947D1879345B4CAD0F4D4F7EB8B42D6 /* Pods-LCASqliteTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCASqliteTool_Example-umbrella.h"; sourceTree = "<group>"; };
 		AA83B921D41E668AFE959247666B85C7 /* LCASqliteTool-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LCASqliteTool-Bridging-Header.h"; path = "LCASqliteTool/Classes/LCASqliteTool-Bridging-Header.h"; sourceTree = "<group>"; };
 		B3236589E4D178151D97129601D28784 /* LCAObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCAObject.swift; path = LCASqliteTool/Classes/LCAObject.swift; sourceTree = "<group>"; };
-		BDA7B7DAFCFB77BC432225E7E9E826C9 /* LCASqliteTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LCASqliteTool.modulemap; sourceTree = "<group>"; };
+		BDA7B7DAFCFB77BC432225E7E9E826C9 /* LCASqliteTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LCASqliteTool.modulemap; sourceTree = "<group>"; };
 		C8756FD681BE363590B19CAF2DBC299A /* LCAModelProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCAModelProtocol.swift; path = LCASqliteTool/Classes/LCAModelProtocol.swift; sourceTree = "<group>"; };
 		CB0AFA159C3ACF67A12EEDF43437CC10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEAF6801EDF589D584B276FDF06A89AF /* Pods-LCASqliteTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCASqliteTool_Example-resources.sh"; sourceTree = "<group>"; };
@@ -74,7 +72,7 @@
 		EA187B6D76E0E7D1FD9B3985A79D9394 /* Pods-LCASqliteTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCASqliteTool_Example-dummy.m"; sourceTree = "<group>"; };
 		EA755BADDE9A275A079413E80F693520 /* Pods-LCASqliteTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCASqliteTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		EDD472D64123D1B48A6695B9CFFA290C /* Pods-LCASqliteTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCASqliteTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F417C01DA603AF75E2B425D2E61EE5AD /* LCASqliteTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LCASqliteTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F417C01DA603AF75E2B425D2E61EE5AD /* LCASqliteTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LCASqliteTool.framework; path = LCASqliteTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE9F70769E1EFE15D6D08910EE199A7 /* Pods-LCASqliteTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCASqliteTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +154,6 @@
 		B516D0BE1A40C13705B7C1B78ECB57E7 /* LCASqliteTool */ = {
 			isa = PBXGroup;
 			children = (
-				047035CE1F8F368100CCFA72 /* LCASqliteCache.swift */,
 				C8756FD681BE363590B19CAF2DBC299A /* LCAModelProtocol.swift */,
 				B3236589E4D178151D97129601D28784 /* LCAObject.swift */,
 				247B11CBAC86390B48094116846914AB /* LCASqliteModelTool.swift */,
@@ -364,7 +361,6 @@
 				41A62FF760EA61E616788A3602ACB7C6 /* LCASqliteModelTool.swift in Sources */,
 				B65CBC4BFBC9F7CB82115611DABDCC5B /* LCASqliteTool-dummy.m in Sources */,
 				B9951AD6E8D91CC3715832742B33867B /* LCASqliteTool.swift in Sources */,
-				047035CF1F8F368100CCFA72 /* LCASqliteCache.swift in Sources */,
 				F9A7185695143B754698ED4147C85BDE /* LCASqliteToolAPI.swift in Sources */,
 				55C1B78DD29D92C7DD7F254220DD864C /* LCATableTool.swift in Sources */,
 			);

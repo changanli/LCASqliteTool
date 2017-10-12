@@ -1,5 +1,5 @@
 PODS:
-  - LCASqliteTool (1.0.2)
+  - LCASqliteTool (1.1.1)
 
 DEPENDENCIES:
   - LCASqliteTool (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LCASqliteTool: 98998d21988e9f890c581a46c7e2b0092d256220
+  LCASqliteTool: fc8a6b441fe051366007715bee52b45441ce87ae
 
 PODFILE CHECKSUM: d8570f897c98b6fed1110ff90c28a01987ec5d80
 
